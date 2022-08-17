@@ -172,6 +172,7 @@ use reqwest::blocking::{Client, ClientBuilder};
 use reqwest::StatusCode;
 
 mod quotes;
+mod fundamentals;
 mod search_result;
 mod yahoo_error;
 pub use quotes::{
